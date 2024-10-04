@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    padding: 0 10px;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: url(img.jpg);
+}
+
+.container {
+    width: 420px;
+    border-radius: 30px;
+    background: #222;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+.container h2 {
+    font-size: 28px;
+    font-weight: 600;
+    padding: 20px 28px;
+    border-bottom: 1px solid #333;
+    color: #fff;
+    text-align: center;
+}
+
+.container .content {
+    margin: 25px 20px 35px;
+}
+
+.container .word {
+    user-select: none;
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 18px;
+    margin-right: -18px;
+    word-break: break-all;
+    text-transform: uppercase;
+    color: rgb(163, 10, 86);
+    text-shadow: 2px 2px 3px #0b1572;
+}
+
+.content .details {
+    margin: 25px 0 20px;
+}
+
+.details p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #bbb;
+    text-align: center;
+}
+
+.content input{
+    width: 100%;
+    height: 50px;
+    outline: none;
+    padding: 0 15px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #333;
+    background-color: #111;
+    color: white;
+}
+
+.content input:focus{
+    border-color: #5372f0;
+    background-color: #222;
+    color: white;
+}
+
+.content .buttons
+{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.content input::placeholder{
+    color: whitesmoke;
+}
+
+.buttons button{
+    padding: 16px 0;
+    width: calc(50% - 6px);
+    border-radius: 25px;
+    border: 1px solid;
+    font-size: 16px;
+}
+
+.Score
+{
+    display: flex;
+    justify-content: center;
+    color: wheat;
+    /* height: 6vh; */
+    margin: 5px 0;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.scrBTN{
+    width: 100%;
+    margin: 4px 0;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.scoreRest{
+    height: 40px;
+    width: 80px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+    background: #5372f0;
+    color: #fff;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.Status{
+    height: 50px;
+    margin: 10px 0;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(171, 117, 16);
+}
+
+.yes{
+    color: rgb(73, 208, 0);
+}
+.no{
+    color: rgb(235, 15, 15);
+}
+
