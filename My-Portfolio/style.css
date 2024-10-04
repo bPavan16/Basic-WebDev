@@ -1,0 +1,332 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito+Sans);
+@import url(https://fonts.googleapis.com/css?family=Rubik);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+
+#header {
+    background-color: black;
+    color: aliceblue;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#header h1 {
+    text-align: center;
+}
+
+#header .site-description {
+    font-size: 15px;
+    display: block;
+    line-height: 1;
+    color: white;
+    margin-top: 10px;
+    font-family: 'Nunito Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+@media only screen and (min-width:550px) {
+    #header .site-description {
+        font-size: 40px
+    }
+}
+
+#header .site-title {
+    font-family: 'Rubik', sans-serif;
+    font-size: 35px;
+    line-height: 1;
+    color: red;
+}
+
+@media only screen and (min-width:550px) {
+    #header .site-title {
+        margin: 5;
+        font-size: 100px
+    }
+}
+
+.header-links {
+    margin: 30px
+}
+
+.header-links .link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 10px
+}
+
+@media only screen and (min-width:550px) {
+    .header-links .link {
+        font-size: 20px
+    }
+}
+
+.header-icons {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.header-icons a {
+    margin: 5px 5px;
+    font-size: large;
+    text-decoration: yellow;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: yellow;
+}
+
+
+#about {
+
+    min-height: 100vh;
+    max-height: max-content;
+    background-color: rgb(23, 23, 23);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+/* ------------------- */
+
+.Aboutcontainer {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 80px;
+
+}
+
+#headingAbt {
+    margin-top: 80px;
+    font-size: 80px;
+    color: #fffecd;
+    text-align: center;
+}
+
+.Aboutcontainer p {
+    line-height: 1.6;
+}
+
+.about-me {
+    margin-top: 20px;
+}
+
+.about-me img {
+    image-rendering: inherit;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.about-me h2 {
+    font-size: 50px;
+    text-align: center;
+    color: #be6326;
+    margin: 20px auto;
+}
+
+.about-me .para {
+    margin: 2px 25px;
+    background-color: wheat;
+    color: black;
+    border-radius: 18px;
+    padding: 15px;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@media only screen and (min-width:550px) {
+    .about-me .para {
+        margin: 10px 55px;
+        padding: 25px;
+    }
+}
+
+.about-me p {
+    display: block;
+}
+
+.about-me ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.about-me ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.about-me ul li:last-child {
+    margin-right: 0;
+}
+
+.about-me ul li a {
+    text-decoration: none;
+    color: #171717;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+}
+
+.about-me ul li a:hover {
+    background-color: #f0f0f0;
+}
+
+/* ------------------- */
+
+
+.container{
+    min-width: fit-content;
+    max-width:max-content;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: black;
+}
+
+.container h1 {
+    color: #333;
+    text-align: center;
+}
+
+.tech-stack {
+    margin-top: 20px;
+}
+
+.tech-stack h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.tech-stack ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.tech-stack ul li {
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    vertical-align: top;
+}
+
+.tech-stack ul li:last-child {
+    margin-right: 0;
+}
+
+.tech-stack ul li img {
+    max-width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.tech-stack ul li span {
+    display: block;
+    font-weight: bold;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 600px) {
+    .container {
+        max-width: 80%;
+        padding: 10px;
+    }
+
+    .tech-stack ul li {
+        display: block;
+        margin-right: 0;
+    }
+
+    .tech-stack ul li:last-child {
+        margin-bottom: 0;
+    }
+}
+
+/* ------------------- */
+
+#projects {
+    background-color: rgb(1, 1, 35);
+    min-height: 100vh;
+    max-height: max-content;
+    width: 100%;
+}
+
+
+.cont {
+    min-height: 100vh;
+    max-height: max-content;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 1px auto;
+    padding: 2px 0
+}
+
+.holder {
+    margin: 10px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 15px 15px;
+}
+
+.card-body{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.cont h1{
+    margin:20px ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 60px;
+    color: skyblue;
+}
