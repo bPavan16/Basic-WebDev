@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    /* background: linear-gradient(135deg, rgb(9, 9, 96), rgb(57, 3, 57)); */
+}
+
+.conatiner {
+    min-height: 100vh;
+    max-height: auto;
+    width: 100%;
+    background: linear-gradient(135deg, rgb(9, 9, 96), rgb(57, 3, 57));
+    padding: 10px;
+    color: white;
+}
+
+.todo {
+    width: 100%;
+    max-width: 540px;
+    background: rgb(7, 1, 21);
+    border-radius: 10px;
+    margin: 20px auto 20px;
+    padding: 40px 30px 70px;
+}
+
+.conatiner h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 3em;
+}
+
+.ip-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: bisque; */
+    border-radius: 30px;
+    /* padding-left: 20px; */
+    margin-bottom: 30px;
+
+}
+
+#input-box {
+    border: none;
+    outline: none;
+    width: 100%;
+    border-radius: 15px;
+    padding: 10px;
+    margin-right: 4px;
+    text-align: center;
+    border: solid black 1px;
+    font-size: 1.05em;
+}
+
+#SubBtn {
+    padding: 8px 10px;
+    border-radius: 17px;
+    outline: none;
+    background: orangered;
+    border: solid orangered;
+    color: white;
+}
+
+.contents ul {
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.contents ul li {
+    width: 100%;
+    min-height: 50px;
+    max-height: fit-content;
+    padding: 5px 5px;
+    border-radius: 20px;
+    margin: 10px 0;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 29px;
+}
+
+.uncheck{
+    background-color: rgb(4, 57, 75);
+}
+
+.strike {
+    text-decoration: line-through;
+}
+
+.check{
+
+    background-color: green;
+}
+
+/* .contents ul li input {} */

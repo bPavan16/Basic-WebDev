@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SIGN-HERE</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <div class="container">
+            <section class="Tools">
+                <div class="row">
+                    <!-- <label class="title">Shapes</label> -->
+                    <!-- <ul class="options"> -->
+                        <!-- <li class="optiontype"><img src="" alt=""> <span>Rectangle</span></li> -->
+                        <!-- <li class="optiontype"><img src="" alt=""> <span>Circle</span></li> -->
+                        <!-- <li class="optiontype"><img src="" alt=""> <span>Triangle</span></li> -->
+                        <!-- <li class="optiontype"><input type="checkbox" id="Fill"> <label for="Fill">Fill Color</label> -->
+                    <!-- </ul> -->
+                </div>
+                <div class="row">
+                    <label class="title">SELECT : </label>
+                    <ul class="options">
+                        <li class="optiontype"><img src="" alt=""> <button class='btn' id="Brush">Brush</button></li>
+                        <li class="optiontype"><img src="" alt=""> <button class='btn' id='Eraser'>Eraser</button></li>
+                        <li class="optiontype"><input type="range" id="sizeSlider" min='1' max='30' value="5"> <label
+                                for="sizeSlider"></label>
+                        </li>
+                        <li class="optiontype"><input type="color" id="colorPick"> <label for="colorPick"> : Color </label>
+                        </li>
+                    </ul>
+                </div>
+                <div class="row">
+                    <label class="title">OPTIONS : </label>
+                    <ul class="options">
+                        <li class="optiontype"><button id="Clear" class="btnO">Clear</button></li>
+                        <li class="optiontype"><button id="Save" class="btnO">Save</button></li>
+                    </ul>
+                </div>
+
+
+            </section>
+            <section class="Draw">
+                <canvas></canvas>
+            </section>
+        </div>
+
+
+
+        <script src="script.js"></script>
+    </body>
+
+</html>
