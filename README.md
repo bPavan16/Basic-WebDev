@@ -2,8 +2,8 @@
 
 This repository contains a collection of beginner to intermediate web development projects created for hands-on practice. Each project is self-contained and demonstrates different aspects of web development, including HTML, CSS, and JavaScript fundamentals.
 
-
-[![LIVE DEMO](https://img.shields.io/badge/LIVE%20DEMO-blue?style=for-the-badge&logo=github)](https://bpavan16.github.io/WEB-DEV-FILES/)
+## Check out my work
+[![LIVE DEMO](https://img.shields.io/badge/LIVE%20DEMO-blue?style=for-the-badge&logo=github)](https://bpavan16.github.io/Basic-WebDev/)
 
 ## Project List
 
