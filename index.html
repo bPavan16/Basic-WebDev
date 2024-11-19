@@ -1,108 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Basic Projects</title>
-    <!-- The StyleSheet Begins Here  -->
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #000000;
-            color: #ffffff;
-            margin: 0;
-            padding: 20px;
-            transition: background-color 0.3s, color 0.3s;
-        }
 
-        h1 {
-            text-align: center;
-        }
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Basic Projects</title>
+        <!-- The StyleSheet Begins Here  -->
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #000000;
+                color: #ffffff;
+                margin: 0;
+                padding: 20px;
+                transition: background-color 0.3s, color 0.3s;
+            }
 
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
+            h1 {
+                text-align: center;
+                font-size: 40px;
+            }
 
-        li {
-            margin: 10px 0;
-        }
+            .container {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
 
-        a {
-            text-decoration: none;
-            color: #005dc0;
-            font-weight: bolder;
-            font-size: larger;
-        }
+            .card {
+                background-color: #1a1a1a;
+                border-radius: 10px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+                margin: 10px;
+                padding: 20px;
+                width: 300px;
+                text-align: center;
+                transition: transform 0.2s;
+            }
 
-        a:hover {
-            text-decoration: underline;
-        }
+            .card:hover {
+                transform: scale(1.05);
+            }
 
-        .dark-mode {
-            background-color: #333;
-            color: #f0f0f0;
-        }
+            a {
+                text-decoration: none;
+                color: #005dc0;
+                font-weight: bolder;
+                font-size: larger;
+            }
 
-        .dark-mode a {
-            color: #1e90ff;
-        }
+            a:hover {
+                text-decoration: underline;
+            }
 
-        h1{
-            font-size: 40px;
-        }
+            .dark-mode {
+                background-color: #333;
+                color: #f0f0f0;
+            }
 
-        .container{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
+            .dark-mode a {
+                color: #1e90ff;
+            }
 
+            .all-cards {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between
+            }
+        </style>
+        <!-- The StyleSheet Ends Here  -->
+    </head>
 
+    <body>
+        <div class="container">
+            <h1>Basic Web development Projects</h1>
+            <div class="all-cards">
+                <a href="./Age-Calculator/index.html"><div class="card">Age Calculator</div></a>
+                <a href="./COLOR-PICKER/index.html"><div class="card">Color Picker</div></a>
+                <a href="./GuessGame/index.html"><div class="card">Guess Game</div></a>
+                <a href="./NotesApp/index.html"><div class="card">Notes App</div></a>
+                <a href="./SIGN-HERE/index.html"><div class="card">Sign Here</div></a>
+                <a href="./TODO-LIST/index.html"><div class="card">TODO APP</div></a>
+                <a href="./TIC-TAC-TOE/index.html"><div class="card">TIC TAC TOE</div></a>
+                <a href="./SIMPLE-CALCULATOR/index.html"><div class="card">Calculator</div></a>
+                <a href="./Mines-Game/page.html"><div class="card">Mines-Game</div></a>
+        </div>
 
-    </style>
-    <!-- The StyleSheet Ends Here  -->
-</head>
-<body>
-    <div class="container">
-    <h1>Basic Web-dev Projects</h1>
-    <ul>
-        <li><a href="./Age-Calculator/index.html">Age Calculator</a></li>
+        <!-- The Script Begins Here  -->
+        <script>
 
-<li><a href="./COLOR-PICKER/index.html">Color Picker</a></li>
+        </script>
+        <!-- The Script Ends Here  -->
+    </body>
 
-<li><a href="./GuessGame/index.html">Guess Game</a></li>
-
-<li><a href="./NotesApp/index.html">Notes App</a></li>
-
-<li><a href="./SIGN-HERE/index.html">Sign Here</a></li>
-
-<li><a href="./TODO-LIST/index.html">TODO APP</a></li>
-
-<li><a href="./TIC-TAC-TOE/index.html">TIC TAC TOE</a></li>
-
-<li><a href="./SIMPLE-CALCULATOR/index.html">Calculator</a></li>
-
-<li><a href="./Mines-Game/page.html">Mines-Game</a></li>
-
-
-
-
-
-
-
-
-
-
-
-
-    </ul></div>
-
-    <!-- The Script Begins Here  -->
-    <script>
-       
-    </script>
-    <!-- The Script Ends Here  -->
-</body>
 </html>
